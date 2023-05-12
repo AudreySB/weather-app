@@ -3,8 +3,8 @@
 }
 body {
   margin: 0;
-  background-color: #ade2cf;
-  color: #204139;
+  background-color: #eac8ea;
+  color: #844581;
   font-family: sans-serif;
 }
 .blurred {
@@ -25,11 +25,9 @@ body {
   justify-content: center;
   margin: 0.5rem;
   padding: 0.5rem;
-  border-right: 2px solid #204139;
+  border-right: 2px solid #844581;
  }
-  svg > path {
-  fill: white !important;
-  }
+
  .weather-icon {
   width: 40px;
   height: 40px;
@@ -65,7 +63,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.6rem;
-  color: #256051;
+  color: #844581;
  }
 
  .value-sub-info {
@@ -87,14 +85,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #204139;
+  border: 1px solid #844581;
   border-radius: 0.25rem;
   padding: 0.25rem;
  }
 
  .day-card-day {
   font-size: 0.75rem;
-  color: #256051;
+  color: #6a3967;
   margin-top: 0.5rem;
  }
 
@@ -107,10 +105,10 @@ body {
  }
 
  .hour-row {
-  background-color: #b0dece;
+  background-color: #d6a9d6;
  }
  .hour-row:nth-child(2n) {
-  background-color: #8dceb6;
+  background-color: #e6cbe6;
  }
 
  .hour-row > td {
